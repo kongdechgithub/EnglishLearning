@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvUpdateDeleteTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvUpdateDeleteTitle"
+        android:layout_marginStart="14dp"
+        android:gravity="center"
+        android:text="Textview"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvUpdateDeleteTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignStart="@+id/tvUpdateDeleteTitle1"
+        android:gravity="center"
+        android:text="Textview"
+        android:textColor="#ff0000" />
+
+    <ImageButton
+        android:id="@+id/ibDeleteCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:onClick="onClickOfUpdateDelete"
+        android:src="@android:drawable/ic_delete" />
+
+    <ImageButton
+        android:id="@+id/ibUpdateCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/ibDeleteCustomer"
+        android:onClick="onClickOfUpdateDelete"
+        android:src="@android:drawable/ic_menu_edit"
+
+        />
+
+</RelativeLayout>

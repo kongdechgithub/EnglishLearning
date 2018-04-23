@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Listen English</string>
+    <string name="app_name1">สวัสดี</string>
+    <string name="customer_added_successfully">Customer added successfully</string>
+    <string name="customer_could_not_be_added">Couldn\'t be added</string>
+    <string name="customer_updated_successfully">Updated successfully</string>
+    <string name="customer_couldnt_be_updated">Couldn\'t be updated</string>
+    <string name="customer_deleted_successfully">Deleted successfully</string>
+    <string name="customer_couldnt_be_deleted">Couldn\'t be deleted</string>
+    <string name="select_a_customer_to_edit">Select a vocabulary to edit</string>
+    <string name="insert_update_delete_query_demo">Insert, Update, Delete,  Query demo !</string>
+    <string name="insert_update_delete_query_demo1">บันทึกคำศัพท์ที่สนใจ</string>
+    <string name="first_name">คำศัพท์</string>
+    <string name="last_name">ความหมาย</string>
+    <string name="add">เพิ่ม</string>
+    <string name="update">แก้ไข</string>
+    <string name="john_doe">John Doe</string>
+    <string name="text1">Greet and Goodbye</string>
+    <string name="text2">Introduce yourself</string>
+    <string name="text3">Thankyou and sorry </string>
+    <string name="text4">Call</string>
+    <string name="text5">Responsibility</string>
+    <string name="text6">At work</string>
+    <string name="text7">Test</string>
+    <string name="text8">Vocabulary</string>
+    <string name="exer1">Exercises 1</string>
+    <string name="exer2">Exercises 2</string>
+    <string name="exer3">Exercises 3</string>
+    <string name="exer4">Exercises 4</string>
+    <string name="exer5">Exercises 5</string>
+    <string name="exer6">Exercises 6</string>
+</resources>

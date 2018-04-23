@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="299dp"
+        android:layout_height="34dp"
+        android:paddingTop="10dp"
+        android:text="TextView1"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="368dp"
+        android:layout_height="37dp"
+        android:paddingBottom="10dp"
+        android:text="TextView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/circleButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:cb_color="#04ce3e"
+        app:cb_pressedRingWidth="4dp"
+        android:src="@drawable/ic_volume_up_black_24dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="22dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
+
+</RelativeLayout>

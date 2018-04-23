@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kongdech.finalend">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <activity android:name=".SpashScreen"  android:screenOrientation="portrait">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".page1"
+            android:label="Greet and SayGoodbye"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".page2"
+            android:label="Introduce yourself"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="Add Vocabulary"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".page3"
+            android:label="Thankyou and Sorry"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".page4"
+            android:label="Calling"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".page5"
+            android:label="Duties and Responsibility"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".page6"
+            android:label="At work"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".QuizActivity"
+            android:label="แบบทดสอบที่1"
+            android:parentActivityName=".Test"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".QuizActivity1"
+            android:label="แบบทดสอบที่2"
+            android:parentActivityName=".Test"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".QuizActivity2"
+            android:label="แบบทดสอบที่3"
+            android:parentActivityName=".Test"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".QuizActivity3"
+            android:label="แบบทดสอบที่4"
+            android:parentActivityName=".Test"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".QuizActivity4"
+            android:label="แบบทดสอบที่5"
+            android:parentActivityName=".Test"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".QuizActivity5"
+            android:label="แบบทดสอบที่6"
+            android:parentActivityName=".Test"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HigestScoreActivity"
+            android:label="คะแนนรวม"
+            android:parentActivityName=".Test"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HigestScoreActivity1"
+            android:label="คะแนนรวม"
+            android:parentActivityName=".Test"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HigestScoreActivity2"
+            android:label="คะแนนรวม"
+            android:parentActivityName=".Test"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HigestScoreActivity3"
+            android:label="คะแนนรวม"
+            android:parentActivityName=".Test"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HigestScoreActivity4"
+            android:label="คะแนนรวม"
+            android:parentActivityName=".Test"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HigestScoreActivity5"
+            android:label="คะแนนรวม"
+            android:parentActivityName=".Test"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Test"
+            android:label="Testing"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+    </application>
+
+</manifest>
